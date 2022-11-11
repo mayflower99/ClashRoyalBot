@@ -1,0 +1,35 @@
+Make a bot that plays clash royal
+
+    Launch bluestacks
+        todo open clash royal
+        todo locate edges of screen on launch
+        todo press battle button
+
+    Play Clash royal
+        Use open cv to get inputs
+            todo get num elixer
+            todo create array of cards in hand
+            todo locate played troops and give coords and time played
+            todo get time remaining
+            todo get towers destroyed and play area
+
+        Use tensorflow to play clash royal evolution training
+            todo set reward scheme
+                winning - 1st
+                destroying tower - 2nd
+                destroying troop - 10th
+                gaining elixer - 20th
+                ???
+            
+            todo set inputs and outputs
+                inputs:
+                    elixer count
+                    array of troop locations and types; health?; level?
+                    towers destroyed
+                    troops in hand
+                    next card
+                
+                outputs:
+                    wait
+                    place troop from hand(x,y coords)
+
