@@ -5,6 +5,9 @@ import pywinauto
 import cv2
 import sys
 from clashroyalbot import ClashRoyalBot
+
 if __name__ == "__main__":
+    #initalise main class
     clashroyalbot = ClashRoyalBot()
+    #sets up the clash royal bot
     clashroyalbot.launch()
