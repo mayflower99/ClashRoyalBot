@@ -1,9 +1,9 @@
 Make a bot that plays clash royal
 
     Launch bluestacks
-        todo open clash royal
-        todo locate edges of screen on launch
-        todo press battle button
+        done open clash royal 
+        done locate edges of screen on launch
+        done press battle button
 
     Play Clash royal
         Use open cv to get inputs
